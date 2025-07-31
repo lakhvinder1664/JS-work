@@ -14,11 +14,26 @@
 // console.log(typeof a_10);
 
 // example-2
-let a_10 = 19;
-let b_10 = 20;
+// let a_10 = 19;
+// let b_10 = 20;
 
-a_10 = String(a_10);
-b_10 = String(b_10);
+// a_10 = String(a_10);
+// b_10 = String(b_10);
 
-console.log(typeof a_10, typeof b_10);
+// console.log(typeof a_10, typeof b_10);
  
+
+// Numeric conversion
+
+// example-1
+// let string = "1919";
+// string = Number(string);
+
+// console.log(typeof string)
+
+// example-2
+let lucky = "19";
+lucky = Boolean(lucky);
+
+console.log(lucky)
+console.log(typeof lucky);
