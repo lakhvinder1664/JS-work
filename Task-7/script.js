@@ -32,4 +32,30 @@
 // let s = "my" + "string";
 // console.log(s);
 
-console.log("1" + 2);
+// console.log("1" + 2 + 1);
+
+// Modify-in-place:
+
+// let a = 5;
+// a += 10;
+// console.log(a);
+
+// let a = 6;
+// a += 5 + 10;
+// a -=7;
+// console.log(a);
+
+//Increment/decrement:
+
+// let counter = 5;
+// counter++;  
+// console.log(counter);
+
+// let counter = 5;
+// let a = ++counter;
+// console.log(counter);
+
+    let counter = 4;
+    let a = counter++;
+    // a = 4 counter+1
+    console.log(counter);
