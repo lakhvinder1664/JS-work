@@ -55,7 +55,9 @@
 // let a = ++counter;
 // console.log(counter);
 
-    let counter = 4;
-    let a = counter++;
-    // a = 4 counter+1
-    console.log(counter);
+    // let counter = 4;
+    // let a = counter++;
+    // // a = 4 counter+1
+    // console.log(counter);
+    
+    
