@@ -171,8 +171,52 @@
 //     i++;
 // } while(i<=10);
 
+// let i = 1;
+// do{
+//     console.log("6 x " + i + " = " +(6 * i));
+//     i++;
+// } while(i<=10);
+
+// 1 . Write a while loop to print numbers from 1 to 5.
+
+// let i = 1;
+// while(i<=5){
+//     console.log(i);
+//     i++;
+// }
+
+
+// 2 . Write a do...while loop to print numbers from 1 to 5.
+
+// let i = 1;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<=5);
+
+// 3 . What’s the main difference between while and do...while?
+//     the difference is that in while it check condition first but in do while it runs the code before cheking the condition.
+
+// 4 . Print all even numbers from 1 to 20 using a while loop.
+
+// let even_num = 1;
+// while(even_num<=5){
+//     console.log(even_num);
+//     even_num++;
+// }
+
+// 5 . Print numbers from 10 down to 1 using a do...while loop.
+// let i = 10;
+// do{
+//     console.log(i);
+//     i-=1;
+// } while(i>=1);
+
+// 6 . Find the sum of numbers from 1 to 50 using a while loop.
 let i = 1;
-do{
-    console.log("6 x " + i + " = " +(6 * i));
+let sum = 0;
+while(i<=50){
+  sum = i + sum;
     i++;
-} while(i<=10);
+}
+console.log(i);
