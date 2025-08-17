@@ -213,10 +213,34 @@
 // } while(i>=1);
 
 // 6 . Find the sum of numbers from 1 to 50 using a while loop.
-let i = 1;
-let sum = 0;
-while(i<=50){
-  sum = i + sum;
-    i++;
-}
-console.log(i);
+// let i = 1;
+// let sum = 0;
+// while(i<=50){
+//   sum = i + sum;
+//     i++;
+// }
+// console.log(i);
+
+// For loop
+
+// for(i = 1; i<=10; i++){
+//     console.log(i);
+// }
+
+// for(num = 5; num<=15; num++){
+//     console.log(num);
+// }
+
+// for(let i = 2; i<=10; i += 2){
+//     console.log(i);
+// }
+
+// let sum = 0;
+// for(let i = 1; i<=10; i++){
+//     sum += i;
+// } console.log(sum);
+
+// let total = 0;
+// for(let num = 66; num <= 75; num++){
+//     total += num;
+// } console.log(total);
