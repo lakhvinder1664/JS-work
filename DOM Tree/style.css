@@ -1,0 +1,20 @@
+.heading{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.heading h1{
+    background-color: blueviolet;
+    padding: 5px 10px;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.btn p{
+    border-radius: 5px;
+    font-size: 20px;
+    background: red;
+    padding: 6px 10px;
+}

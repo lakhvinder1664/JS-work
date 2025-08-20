@@ -244,3 +244,51 @@
 // for(let num = 66; num <= 75; num++){
 //     total += num;
 // } console.log(total);
+
+// 1 . Print numbers 1 to 10
+// Use a for loop to print numbers from 1 to 10.
+
+// for(let i = 1; i<=10; i++){
+//     console.log(i);
+// }
+
+// 2 . Print odd numbers between 1 and 20
+// Hint: use i += 2 or check with %.
+
+// for(let i = 1; i<=20; i +=2){
+//     console.log(i);
+// }
+
+// 3 . Multiplication table of 7
+// Print the table of 7 (from 7 × 1 up to 7 × 10).
+
+// for(let i = 1; i<= 10; i++)[
+//     console.log("7 x " + i + " = " + (7 * i))
+// 
+
+// 4 . Factorial of 5
+// Use a for loop to calculate 5! = 1 × 2 × 3 × 4 × 5.
+
+// let Factorial = 1;
+// for(let i = 1; i<=5; i++){
+//     Factorial *= i;
+// }
+// console.log("Factorial of 5 is:", Factorial);
+
+
+// factorial of 10
+// let factorial = 1;
+// for(let i = 1; i<= 10; i++){
+//     factorial *= i;
+// } console.log("factorial of 10 is :", factorial);
+
+
+let n = 5; // size
+
+for (let i = 1; i <= n; i++) {
+  let row = "";
+  for (let j = 1; j <= n; j++) {
+    row += "* ";
+  }
+  console.log(i);
+}
