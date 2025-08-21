@@ -75,13 +75,13 @@
 // console.log(double);
 
 
-// function calculator(fn, x, y) {
-//     return fn(x, y);
-// }
+function calculator(fn, x, y) {
+    return fn(x, y);
+}
 
-// // Using function expression
-// const multiply = function(a, b) {
-//     return a * b;
-// };
+// Using function expression
+const multiply = function(a, b) {
+    return a * b;
+};
 
-// console.log(calculator(multiply, 4, 5)); // 20  
+console.log(calculator(multiply, 4, 5)); // 20  
