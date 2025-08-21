@@ -64,14 +64,24 @@
 
 // console.log(end);
 
-const add = function add(a,b){
-    return a + b;
-};
+// const add = function add(a,b){
+//     return a + b;
+// };
 
-let result = add(6,5);
-let double = result * 6;
-// console.log(double(add(6,5)));
-console.log(result);
-console.log(double);
+// let result = add(6,5);
+// let double = result * 6;
+// // console.log(double(add(6,5)));
+// console.log(result);
+// console.log(double);
 
 
+// function calculator(fn, x, y) {
+//     return fn(x, y);
+// }
+
+// // Using function expression
+// const multiply = function(a, b) {
+//     return a * b;
+// };
+
+// console.log(calculator(multiply, 4, 5)); // 20  
