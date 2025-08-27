@@ -56,10 +56,12 @@ const user = [
 ]
 
 user[1].email
-console.log(InstaUser);
+// console.log(InstaUser);
 
-console.log(Object.keys(InstaUser));
-console.log(Object.values(InstaUser));
-console.log(Object.entries(InstaUser));
+// console.log(Object.keys(InstaUser));
+// console.log(Object.values(InstaUser));
+// console.log(Object.entries(InstaUser));
 
-console.log(InstaUser.hasOwnProperty('islogged'));
+// console.log(InstaUser.hasOwnProperty('islogged'));
+
+
