@@ -176,8 +176,50 @@ const user = {
 
     welcomeMessage: function(){
         console.log(`${this.username}, welcome to website`);
+        console.log(this);
     }
 
 }
 
-user.welcomeMessage
+// user.welcomeMessage()
+// user.username = "lakhvinder"
+// user.welcomeMessage()
+
+// console.log(this);
+
+
+// function tea(){
+//     let username = "lucky"
+//     console.log(this.username);
+// }
+
+// tea()
+
+
+// const tea = function(){
+//     let username = "lucky"
+//     console.log(this.username);
+// }
+
+// tea()
+
+
+const tea = () => {
+    let username = "lucky"
+    console.log(this);
+}
+
+// tea()
+
+
+// const addtwo = (num1,num2) =>  {
+//     return num1 + num2
+// }
+
+
+// const addtwo = (num1,num2) => (num1 + num2)
+
+const addtwo = (num1, num2) => ({username: "lakhvinder"})
+
+
+console.log(addtwo(3,6));
