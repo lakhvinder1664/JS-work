@@ -382,11 +382,113 @@ for (let index = 0; index < myArray.length; index++) {
 //     console.log(`Value of i is ${index}`);
     
 // }
-for (let index = 1; index  <= 20; index++) {
-    if(index == 5){
-        console.log(`Detected 5`);
-        continue;
-    }
-    console.log(`Value of i is ${index}`);
+// for (let index = 1; index  <= 20; index++) {
+//     if(index == 5){
+//         console.log(`Detected 5`);
+//         continue;
+//     }
+//     console.log(`Value of i is ${index}`);
     
+// }
+
+// for (let i = 0; i <= 10; i++) {
+//     const count = i;
+//     // if (i==5){
+//     //     console.log(`stop on 5 ${count}`);
+//     //     break;
+//     // }
+//     console.log(count);
+//     for (let f = 0; f < 10; f++) {
+//        console.log(`loop ${f} and ${i} `);
+        
+//     }
+// }
+
+
+const arr = [1,2,3,4,5]
+
+for (const num of arr){
+    // console.log(num);
 }
+
+const greetings = "hlo"
+for (const greet of greetings){
+    // console.log(greet);
+}
+
+
+// const map = new Map()
+// map.set('In', 'India')
+// map.set('USA', 'United states of america')
+// map.set('Fr', 'France')
+
+// console.log(map);
+
+// for (const [key, value] of map) {
+//     // console.log(key,':', value);
+// }
+
+
+// const myobject = {
+//     js: 'javascript',
+//     cpp: 'c++'
+// }
+
+// for (const key in myobject) {
+//     // console.log(myobject[key]);
+// }
+
+// const programming = ["js", "css", "node.js"]
+
+// for (const key in programming) {
+//     // console.log(programming[key]);   
+// }
+
+// // const map = new Map()
+// // map.set('In', 'India')
+// // map.set('USA', 'United states of america')
+// // map.set('Fr', 'France')
+
+// for (const key in map) {
+//     // console.log(key);
+// }
+
+
+
+const coding = ["js", "css", "node.js"]
+
+coding.forEach( function (item) {
+    // console.log(item);
+} )
+
+
+// coding.forEach( (item) => {
+//     console.log(item);
+// } )
+
+
+function printMe(item){
+    // console.log(item);
+}
+
+// coding.forEach(printMe);
+
+// coding.forEach((item, index, arr) => {
+//     console.log(item, index, arr);
+// })
+
+const myCoding = [
+    {
+        language1: "hindi",
+        language2: "english"
+    },
+    {
+        language1: "Japanese",
+        language2: "Punjabi"
+    }
+]
+
+
+myCoding.forEach((item) =>{
+    console.log(item.language1);
+})
